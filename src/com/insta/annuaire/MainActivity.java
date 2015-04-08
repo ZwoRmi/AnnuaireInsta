@@ -2,6 +2,7 @@ package com.insta.annuaire;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -19,6 +20,7 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+        Log.e("test", "test");
         return true;
         //Bilel le caisseux de merde. Faut pas généraliser
         //Vive les Motards V
