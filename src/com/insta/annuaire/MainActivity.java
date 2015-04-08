@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
         //Bilel le caisseux de merde. Faut pas généraliser
+        //Vive les Motards V
     }
 
     @Override
