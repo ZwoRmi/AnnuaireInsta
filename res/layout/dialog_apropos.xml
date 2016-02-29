@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icone_apk_insta" />
+
+    <TextView
+        android:id="@+id/apropos_description_part_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/apropos_description_part_1" />
+    
+    <TextView
+        android:id="@+id/apropos_description_part_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/apropos_description_part_2" 
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/copyright" 
+        />
+
+    <TextView
+        android:id="@+id/apropos_auteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/apropos_auteurs" 
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:id="@+id/apropos_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/apropos_url" 
+        />
+
+    <TextView
+        android:id="@+id/apropos_revision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/apropos_revision" 
+        />
+
+    <TextView
+        android:id="@+id/apropos_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/apropos_version" />
+
+</LinearLayout>

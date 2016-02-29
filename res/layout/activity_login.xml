@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logoinsta"
+        android:layout_width="158dp"
+        android:layout_height="93dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/logoInstaDescription"
+        android:src="@drawable/logoinsta" />
+
+    <EditText
+        android:id="@+id/login"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/identifiant" 
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/motDePasse"
+        android:inputType="textPassword" 
+        android:imeOptions="actionDone"/>
+    
+    <CheckBox
+        android:id="@+id/saveLoginCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="9dp"
+        android:text="@string/rememberme" />
+    
+    <Button
+        android:id="@+id/submitLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:text="@string/connexion" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.61"
+        android:columnCount="4"
+        android:rowCount="1" >
+
+        <ImageView
+            android:id="@+id/facebookIcon"
+            android:layout_width="56dp"
+            android:layout_height="70dp"
+            android:layout_column="0"
+            android:layout_gravity="left"
+        	android:layout_marginRight="10dp"
+        	android:layout_marginLeft="50dp"
+            android:layout_row="0"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/twitterIcon"
+            android:layout_width="56dp"
+            android:layout_height="70dp"
+            android:layout_column="1"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/youtubeIcon"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_column="2"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:src="@drawable/youtube" />
+
+        <ImageView
+            android:id="@+id/googleplusIcon"
+            android:layout_width="56dp"
+            android:layout_height="70dp"
+            android:layout_column="3"
+            android:layout_gravity="left"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:src="@drawable/googleplus" />
+
+    </GridLayout>
+    
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#D56520"
+        android:text="@string/copyright" />
+
+</LinearLayout>
